@@ -43,7 +43,9 @@
     cursor:pointer;
 }
 .playerX{
-    color:greenyellow;
+
+    color:green;
+
 }
 .playerO{
     color:red;
@@ -57,6 +59,7 @@
 
 }
 #reset{
+
     background-color:crimson;
     color:white;
     padding:8px;
