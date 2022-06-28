@@ -55,13 +55,10 @@
 .playerO {
     color: #498AFB;
 }
+.playerX{
 
-.controls {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1em;
+    color:green;
+
 }
 
     .controls button {
@@ -77,7 +74,14 @@
 .restart {
     background-color: #498AFB;
 }
+#reset{
 
-#reset {
-    background-color: #FF3860;
+    background-color:crimson;
+    color:white;
+    padding:8px;
+    border-radius:8px;
+    border:none;
+    font-size:20px;
+    margin-left:1em;
+    cursor:pointer;
 }
